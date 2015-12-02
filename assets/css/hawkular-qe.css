@@ -1,0 +1,29 @@
+/* app css stylesheet */
+
+body {
+}
+
+.sect1 > h2, .sect1 > h3, .sect1 > h4, .sect2 > h2, .sect2 > h3, .sect2 > h4 { color: #7a2518; }
+
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+}
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown-submenu:hover > a:after {
+  border-left-color: #fff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left > .dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+}
